@@ -85,11 +85,40 @@ footer
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 2fr;
     gap: 10px;
+}
+
+.recipe-nav
+{
+    grid-area: 1 / 1  / 2 / 2;
+
+}
+
+#link-alpha
+{
+    border: 3px solid #d9d9d9;
+    background-color: #d9d9d9;
+    padding-inline: 30px;
+    padding-block: 5px;
+    border-radius: 4px;
 }
 
 .recipelist
 {
+    grid-area: 2 / 1 / 3 / 3;
+}
 
+#recipe-food
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#food-text
+{
+    margin-left: 75px;
+    border: 3px solid #d9d9d9;
+    background-color: #d9d9d9;
+    padding-left: 5px;
 }
