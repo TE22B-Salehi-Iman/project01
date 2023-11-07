@@ -1,0 +1,95 @@
+.maingrid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 70px 7fr 1fr;
+}
+
+header
+{
+    grid-area: 1 / 1 / 2 / 3;
+    text-align: center;
+    align-items: center;
+    background-color: #d9d9d9;
+}
+
+nav
+{
+    grid-area:2 / 1 / 3 / 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#link1
+{
+    border: 3px solid #d9d9d9;
+    border-radius: 3px;
+    padding-inline: 3px;
+    background-color: #d9d9d9;
+    margin-right: 125px;
+}
+
+#link2
+{
+    border: 3px solid #d9d9d9;
+    border-radius: 3px;
+    padding-inline: 29.5px;
+    background-color: #d9d9d9;
+    margin-left: 125px;
+}
+
+main
+{
+    grid-area: 3 / 1 / 4 / 3;
+    background-image: url(./img/360_F_254936166_5MFxlGv7PNPw4VmpuNNQxlU0K2D4f7Ya.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about
+{
+    grid-area: 3 / 1 / 4 / 2;
+    width: 442px;
+    height: 232px;
+    font-size: 20px;
+    background-color: #d9d9d9;
+}
+
+#aboutheader
+{
+    font-size: 30px;
+}
+
+footer
+{
+    grid-area: 4 / 1 / 5 / 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #d9d9d9;
+}
+
+#lil-link
+{
+    font-size: 32px;
+}
+
+.recipeGrid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr 2fr;
+    gap: 10px;
+}
+
+.recipelist
+{
+
+}
