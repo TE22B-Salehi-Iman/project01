@@ -227,7 +227,22 @@ footer
     flex-direction: row;
 }
 
+#noodle-namer
+{
+    border: 3px solid #d9d9d9;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+}
+
+ul, ol
+{
+    border: 3px solid #d9d9d9;
+    background-color: #d9d9d9;
+}
+
 li
 {
     margin-block: 80px;
+    font-size: 26px;
 }
